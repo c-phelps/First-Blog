@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Blog</title>
+  </head>
+  <body class="light">
+    <header id="pageHeader">
+      <!-- create our image to toggle light and dark modes -->
+      <section id="headerImg">
+        <img id="imgToggle" src="./assets/css/img/sun.png" />
+      </section>
+    </header>
+    <section class="spacerStyling"></section>
+    <main id="mainContent">
+      <section id="leftSection">
+        <img
+          id="blogImg"
+          src="./assets/css/img/first-blog-light.png"
+          alt="Circle with the text 'My First Blog'."
+        />
+      </section>
+      <section id="rightSection">
+        <h2>Whats on your mind?</h2>
+        <!-- <section> -->
+        <form id="submissionForm">
+          <label for="userName">Username</label> <br />
+          <input type="text" id="userName" name="userName" /><br /><br />
+
+          <label for="title">Title</label><br />
+          <input type="text" id="title" name="title" /><br />
+          <br />
+
+          <label for="content">Content</label><br />
+          <textarea id="content" name="content" rows="4"></textarea><br /><br />
+          <input name="btn" type="submit" value="Submit" class="light" />
+        </form>
+      </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
