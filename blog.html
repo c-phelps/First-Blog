@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Blog</title>
   </head>
+  <!-- class used for styling light/dark modes change dynamically using js -->
   <body class="light">
+    <!-- header section for styling -->
     <header id="pageHeader">
+      <!-- another minor styling ID -->
       <section id="headerTitle">
         <h1>My First Blog</h1>
       </section>
+      <!-- our back button -->
       <input
         type="submit"
         id="btnBack"
@@ -20,13 +24,18 @@
         class="light"
         value="Back"
       /><br />
+      <!-- light/dark toggle img -->
       <section id="headerImg">
         <img id="imgToggle" src="./assets/css/img/moon.png" />
       </section>
     </header>
+    <!-- another aesthetic spacer section -->
     <section class="spacerStyling"></section>
+    <!-- maub content -empty as you can see, filled dynamically via JS based on objects passed by index form -->
     <main id="blogContent"></main>
+    <!-- aesthetic styling spacer -->
     <section class="spacerStyling" id="footerSpacer"></section>
+    <!-- page footer with links to portfolio, github and my email address -->
     <footer id="pageFooter">
       <h4>Made with ❤️ by Chris Phelps</h4>
       <section id="footerLinks">
@@ -43,6 +52,7 @@
         </ul>
       </section>
     </footer>
+    <!-- linking our script and blog js files where the magic happens -->
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/blog.js"></script>
   </body>

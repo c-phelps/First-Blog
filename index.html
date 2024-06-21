@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Blog</title>
   </head>
+  <!-- define the class for styling the webpage, this value will change with JS code to be dynamic -->
   <body class="light">
     <header id="pageHeader">
       <!-- create our image to toggle light and dark modes -->
@@ -15,18 +16,22 @@
         <img id="imgToggle" src="./assets/css/img/moon.png" />
       </section>
     </header>
+    <!-- give our spacer section a class for styling -->
     <section class="spacerStyling"></section>
+    <!-- create the main content section with a left and right id to split the page -->
     <main id="mainContent">
       <section id="leftSection">
+        <!-- pull our blogImg -light, this src will change to dark when the mode changes -->
         <img
           id="blogImg"
           src="./assets/css/img/first-blog-light.png"
           alt="Circle with the text 'My First Blog'."
         />
       </section>
+      <!-- section to hold our form and inputs -->
       <section id="rightSection">
         <h2>Whats on your mind?</h2>
-        <!-- <section> -->
+        <!-- form used for submission event and some basic labels -->
         <form id="submissionForm">
           <label for="userName">Username</label> <br />
           <input type="text" id="userName" name="userName" /><br /><br />
@@ -41,6 +46,7 @@
         </form>
       </section>
     </main>
+    <!-- attach our js script files -->
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/index.js"></script>
   </body>
