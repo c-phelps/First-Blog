@@ -5,7 +5,7 @@ by Chris Phelps
 
 ## Purpose of this project/repo
 To create a blog site that has a light/dark mode toggle and allows a user to input values for 
-user name and title as well as content. \ The website stores the values as an object in local storage. 
+user name and title as well as content. The website stores the values as an object in local storage. 
 The second page is presented when the user hits the submit button. The user will not be sent to the blog webpage 
 if any of the fields are empty. Once the second page loads, the blog webpage will dynamically create and display \
 the elements on the page. There is also a footer with links to my github repos and my portfolio in the footer. \
