@@ -5,8 +5,8 @@ const currentMode = localStorage.getItem("Mode", eleBody.getAttribute("class"));
 const btnStyle = document.querySelector("input[name='btn']");
 
 function setDarkMode() {
-  // if light then set the src for the img to moon
-  eleToggle.setAttribute("src", "./assets/css/img/moon.png");
+  // if light then set the src for the img to sun
+  eleToggle.setAttribute("src", "./assets/css/img/sun.png");
   // set the body element class to dark
   eleBody.setAttribute("class", "dark");
   // set the blog image to react to light/dark mode
@@ -21,8 +21,8 @@ function setDarkMode() {
 
 function setLightMode() {
   // if dark is the class then do the inverse of the code above
-  // set the src to the sun
-  eleToggle.setAttribute("src", "./assets/css/img/sun.png");
+  // set the src to the moon
+  eleToggle.setAttribute("src", "./assets/css/img/moon.png");
   // change the class attribute to light
   eleBody.setAttribute("class", "light");
   // set the blog image to react to light/dark mode

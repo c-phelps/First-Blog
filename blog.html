@@ -10,7 +10,9 @@
   </head>
   <body class="light">
     <header id="pageHeader">
-      <!-- create our image to toggle light and dark modes -->
+      <section id="headerTitle">
+        <h1>My First Blog</h1>
+      </section>
       <input
         type="submit"
         id="btnBack"
@@ -19,15 +21,28 @@
         value="Back"
       /><br />
       <section id="headerImg">
-        <img id="imgToggle" src="./assets/css/img/sun.png" />
+        <img id="imgToggle" src="./assets/css/img/moon.png" />
       </section>
     </header>
     <section class="spacerStyling"></section>
-    <main id="mainContent">
-      <section></section>
-    </main>
+    <main id="blogContent"></main>
     <section class="spacerStyling" id="footerSpacer"></section>
-    <footer id="pageFooter"></footer>
+    <footer id="pageFooter">
+      <h4>Made with ❤️ by Chris Phelps</h4>
+      <section id="footerLinks">
+        <ul>
+          <li>
+            <strong>Portfolio: </strong
+            ><a href="https://c-phelps.github.io/Portfolio/">Chris Phelps</a>
+          </li>
+          <li>
+            <strong>GitHub: </strong
+            ><a href="https://github.com/c-phelps/">C-Phelps repositories</a>
+          </li>
+          <li><strong>Email: </strong>c.j.phelps89@gmail.com</li>
+        </ul>
+      </section>
+    </footer>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/blog.js"></script>
   </body>
